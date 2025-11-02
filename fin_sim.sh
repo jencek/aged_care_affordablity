@@ -2,7 +2,7 @@
 
 python -m aged_care_calcs.agedcare_sim \
     --initial-assets 140000 \
-    --rad 800000 \
+    --rad 750000 \
     --house-value 1000000 \
     --dap-percentage 7 \
     --income-interest-rate 4 \
