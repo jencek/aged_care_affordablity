@@ -50,6 +50,8 @@ def simulate_finances(
     asset_interest_percentage,
 ):
     global current_year, year_total_mtf
+    year_total_mtf.clear()
+
 
     # Convert daily fees → monthly
     monthly_basic_special = (basic_daily_fee + special_services_fee) * 30.44
